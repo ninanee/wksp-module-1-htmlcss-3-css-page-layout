@@ -1,0 +1,36 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+.Nav {
+  height: 50px;
+  background-color: #3a3633;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Footer {
+  height: 50px;
+  background-color: #3a3633;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
