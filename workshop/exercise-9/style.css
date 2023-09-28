@@ -1,13 +1,37 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .nav {
-    background-color: #383737;
+  background-color: #383737;
+  max-height: 54px;
 }
 
 .nav-dropdown {
-    color: #fff;
-    text-decoration: none;
-    display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 18px;
+}
+
+.down-content {
+  background-color: #04aa6d;
+  font-size: 16px;
+  text-decoration: none;
+  max-width: 100px;
+  display: none;
+}
+
+.down-content a {
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+a:hover {
+  background-color: bisque;
+}
+
+.nav:hover .down-content {
+  display: block;
 }
