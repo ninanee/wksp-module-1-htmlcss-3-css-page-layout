@@ -1,0 +1,38 @@
+body {
+  font-family: Poppins, sans-serif;
+}
+
+.card {
+  margin: 20px;
+  border: rgb(203, 203, 203) solid 1px;
+  border-radius: 4px;
+  background-color: rgb(223, 223, 223);
+}
+
+.header {
+  border-bottom: 1px grey;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.title {
+  margin: auto;
+  box-sizing: border-box;
+
+  font-size: 20px;
+}
+.body {
+  background-color: white;
+  padding: 20px;
+}
+
+.btn {
+  /* margin-top: ; */
+  text-decoration: none;
+  padding: 9px 14px;
+  background-color: deepskyblue;
+  border-radius: 5px;
+  color: white;
+}

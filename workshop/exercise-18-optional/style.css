@@ -1,0 +1,25 @@
+body {
+  font-family: Poppins, sans-serif;
+}
+
+.card {
+  border: rgb(203, 203, 203) solid 1px;
+  border-bottom: none;
+  border-radius: 5px;
+}
+
+.header {
+  background-color: rgb(223, 223, 223);
+  padding: 15px;
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0;
+}
+
+li {
+  padding: 15px;
+  border-bottom: rgb(203, 203, 203) solid 1px;
+}
